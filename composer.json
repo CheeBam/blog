@@ -1,10 +1,10 @@
 {
-  "name": "CheeBam/blog",
+  "name": "cheebam/blog",
   "description": "Blog",
   "homepage": "https://www.facebook.com/dmitry.eug",
   "license": "none",
   "support": {
-    "source": "https://github.com/CheeBam/blog"
+    "source": "https://github.com/cheebam/blog"
   },
   "autoload": {
     "psr-4": { "CheeBam\\": "framework/" }
