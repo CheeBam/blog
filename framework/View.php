@@ -96,7 +96,7 @@ class View
         } elseif ($path === Service::get('application')->config['error_500']) {
             $this->path = $path;
         } else {
-            $this->path = __DIR__.'/../src/Blog/views/'.$path.'.php';
+            $this->path = ROOT.'src/Blog/views/'.$path.'.php';
         }
         $this->vars = array_merge($this->vars, $var);
         ob_start();
