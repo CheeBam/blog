@@ -7,7 +7,7 @@
     "source": "https://github.com/cheebam/blog"
   },
   "autoload": {
-    "psr-4": { "CheeBam\\": "framework/" }
+    "psr-4": { "cheebam\\": "framework/" }
   },
   "type": "library"
 }
